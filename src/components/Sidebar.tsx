@@ -30,8 +30,8 @@ const Sidebar = () => {
           className={`nav-item ${activeLink === '/intro' ? 'bg-django-dark-green' : ''}`}
           aria-current={activeLink === '/intro' ? 'page' : undefined}
         >
-          <span className="nav-item-text">INTRO</span>
-          <span className="nav-item-icon">
+          <span className="nav-item-text text-django-black">INTRO</span>
+          <span className="nav-item-icon text-django-black">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="12" cy="12" r="10" />
               <path d="M12 16l4-4-4-4" />
@@ -44,8 +44,8 @@ const Sidebar = () => {
           className={`nav-item ${activeLink === '/game-plan' ? 'bg-django-dark-green' : ''}`}
           aria-current={activeLink === '/game-plan' ? 'page' : undefined}
         >
-          <span className="nav-item-text">YOUR<br />GAME PLAN</span>
-          <span className="nav-item-icon">
+          <span className="nav-item-text text-django-black">YOUR<br />GAME PLAN</span>
+          <span className="nav-item-icon text-django-black">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="12" cy="12" r="10" />
               <path d="M12 16l4-4-4-4" />
@@ -58,8 +58,8 @@ const Sidebar = () => {
           className={`nav-item ${activeLink === '/contact' ? 'bg-django-dark-green' : ''}`}
           aria-current={activeLink === '/contact' ? 'page' : undefined}
         >
-          <span className="nav-item-text">CONTACT</span>
-          <span className="nav-item-icon">
+          <span className="nav-item-text text-django-black">CONTACT</span>
+          <span className="nav-item-icon text-django-black">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="12" cy="12" r="10" />
               <path d="M12 16l4-4-4-4" />
@@ -72,9 +72,9 @@ const Sidebar = () => {
           className={`nav-item ${activeLink === '/shop' ? 'bg-django-dark-green' : ''}`}
           aria-current={activeLink === '/shop' ? 'page' : undefined}
         >
-          <div className="absolute top-2 left-2 bg-django-black text-django-green text-xs px-1 rounded">NEW</div>
-          <span className="nav-item-text">SHOP</span>
-          <span className="nav-item-icon">
+          <div className="absolute top-2 left-2 bg-django-black text-django-mint text-xs px-1 rounded">NEW</div>
+          <span className="nav-item-text text-django-black">SHOP</span>
+          <span className="nav-item-icon text-django-black">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
               <line x1="3" y1="6" x2="21" y2="6" />
@@ -85,7 +85,7 @@ const Sidebar = () => {
       </div>
 
       <div className="p-6 mb-4">
-        <button className="bg-white w-full py-4 px-6 rounded-md font-bold text-django-black flex items-center justify-center space-x-2 hover:bg-opacity-90 transition-all duration-300">
+        <button className="bg-django-black w-full py-4 px-6 rounded-md font-bold text-django-green flex items-center justify-center space-x-2 hover:bg-opacity-90 transition-all duration-300">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M20 6L9 17l-5-5" />
           </svg>

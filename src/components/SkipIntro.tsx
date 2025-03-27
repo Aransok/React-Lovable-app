@@ -6,7 +6,7 @@ const SkipIntro = () => {
     <Link 
       to="/intro" 
       className="fixed top-36 right-8 bg-django-gray bg-opacity-60 backdrop-blur-sm 
-                text-django-green px-6 py-3 rounded-md transition-all 
+                text-django-mint px-6 py-3 rounded-md transition-all 
                 duration-300 hover:bg-opacity-80 font-bold flex items-center"
     >
       <span className="mr-2">SKIP INTRO</span>
